@@ -1,0 +1,33 @@
+{
+  "name": "08_Team_Portfolio-Generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index",
+    "watch": "nodemon index",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdale88/08_Team_Portfolio-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdale88/08_Team_Portfolio-Generator/issues"
+  },
+  "homepage": "https://github.com/Abdale88/08_Team_Portfolio-Generator#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
