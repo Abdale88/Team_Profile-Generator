@@ -81,6 +81,96 @@ function prompts() {
     prompts();
 
 
+    function manager() {
+        const managerQues = [
+            {
+    
+                type: "input",
+                message: "What is the manager's name?",
+                name: "name",
+            },
+            {
+                type: "input",
+                message: "what is the manager's id?",
+                name: "id",
+            },
+    
+            {
+                type: "input",
+                message: "What is the manager's email?",
+                name: "email",
+            },
+    
+            {
+                type: "input",
+                message: "What is the manager's office number?",
+                name: "officeNumber",
+            },
+        ]
+        return managerQues;
+    }
+    
+    function engineer() {
+        const engineerQues = [
+            {
+    
+                type: "input",
+                message: "What is the engineer's name?",
+                name: "name",
+            },
+            {
+                type: "input",
+                message: "what is the engineer's id?",
+                name: "id",
+            },
+    
+            {
+                type: "input",
+                message: "What is the engineer's email?",
+                name: "email",
+            },
+    
+            {
+                type: "input",
+                message: "What is the engineer's github user name?",
+                name: "github",
+            },
+        ]
+        return engineerQues;
+    }
+    
+    function intern() {
+        const engineerQues = [
+            {
+    
+                type: "input",
+                message: "What is the intern's name?",
+                name: "name",
+            },
+            {
+                type: "input",
+                message: "what is the intern's id?",
+                name: "id",
+            },
+    
+            {
+                type: "input",
+                message: "What is the intern's email?",
+                name: "email",
+            },
+    
+            {
+                type: "input",
+                message: "What school did the intern came from?",
+                name: "school",
+            },
+        ]
+        return engineerQues;
+    }
+    
+
+
+
 
 
 
