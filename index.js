@@ -300,10 +300,7 @@ function prompts() {
         "sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
                     crossorigin="anonymous">
         
-            <title>
-                Place two bootstrap cards
-                next to each other
-            </title>
+            <title>Team Portfolio Generator</title>
         
         </head>
         
