@@ -198,6 +198,80 @@ function prompts() {
     `
     }
     
+    
+    function htmlEngineer(){
+        if(arrEngineer.length > 0){
+            let eng = ``
+             for(let i = 0; i < arrEngineer.length; i++){
+            
+              
+                eng += `
+                <div class="p-3 mb-2 bg-info text-white card">
+                <div class="p-3 mb-2 bg-dark text-white card-block">
+                    <h4 class="p-3 mb-2 bg-info text-white card-title">Engineer</h4>
+                    <p class="card-text">
+                         Name: ${arrEngineer[i].name}
+                    </p>
+                    <p class="card-text">
+                         ID: ${arrEngineer[i].id}
+                    </p>
+                    <p class="card-text">
+                         <a href="mailto:${arrEngineer[i].email}">Email</a>
+                    </p>
+                    <p class="card-text">
+                    <a href="https://github.com/${arrEngineer[i].github}">GitHub</a>
+                    </p>
+                    
+                    <p class="card-text">
+                        <small class="text-muted">
+                            Last updated 3 mins ago
+                        </small>
+                    </p>
+                </div>
+            </div>
+                `
+              }
+              return eng;
+        }
+    }
+    
+    
+    function htmlIntern(){
+        if(arrIntern.length > 0){
+            let intObj = ``
+             for(let i = 0; i < arrIntern.length; i++){
+            
+              
+                intObj += `
+                <div class="p-3 mb-2 bg-info text-white card">
+                <div class="p-3 mb-2 bg-dark text-white card-block">
+                    <h4 class="p-3 mb-2 bg-info text-white card-title">Intern</h4>
+                    <p class="card-text">
+                         Name: ${arrIntern[i].name}
+                    </p>
+                    <p class="card-text">
+                         ID: ${arrIntern[i].id}
+                    </p>
+                    <p class="card-text">
+                         <a href="mailto:${arrIntern[i].email}">Email</a>
+                    </p>
+                    <p class="card-text">
+                         School: ${arrIntern[i].school}
+                    </p>
+                    
+                    <p class="card-text">
+                        <small class="text-muted">
+                            Last updated 3 mins ago
+                        </small>
+                    </p>
+                </div>
+            </div>
+                `
+              }
+              return intObj;
+        }
+    }
+  
 
 
 
