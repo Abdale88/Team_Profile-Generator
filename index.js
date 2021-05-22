@@ -168,7 +168,36 @@ function prompts() {
         return engineerQues;
     }
     
-
+    
+    function htmlManager(){
+       
+    return `
+    <div class="p-3 mb-2 bg-info text-white card">
+    <div class="p-3 mb-2 bg-dark text-white card-block">
+        <h4 class="p-3 mb-2 bg-info text-white card-title">Manager</h4>
+        <p class="card-text">
+             Manager Name: ${arrManager[0].name}
+        </p>
+        <p class="card-text">
+             ID: ${arrManager[0].id}
+        </p>
+        <p class="card-text">
+             <a href="mailto:${arrManager[0].email}">Email</a>
+        </p>
+        <p class="card-text">
+            Office Number: ${arrManager[0].officeNumber}
+        </p>
+    
+        <p class="card-text">
+            <small class="text-muted">
+                Last updated 3 mins ago
+            </small>
+        </p>
+    </div>
+    </div>
+    `
+    }
+    
 
 
 
